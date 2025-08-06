@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.hi3vid img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tgbg1 img{
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.247),rgba(0, 0, 0, 0.247));
+}
+
+
+.plicon{
+    margin-top: 100px;
+}
+.plicon a{
+    cursor: pointer;
+    color: white;
+    font-size: 79px;
+    z-index: 10;
+    margin-left: 764px ;
+    position: relative;
+}
+.plicon a:hover{
+    color: #ffefc1;
+}

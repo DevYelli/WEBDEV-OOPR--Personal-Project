@@ -1,0 +1,81 @@
+.secondnav {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 80px;
+    z-index: 1;
+    animation: growDown 400ms ease-in-out forwards;
+    transform-origin: top;
+    display: flex;
+    justify-content: center;
+
+}
+
+.secondnav_container {
+    background-color: black;
+    margin-left: 970px;
+    width: 200px;
+    justify-content: center;
+    height: 220px;
+    border-radius: 2px;
+}
+
+.secondnav_container div{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px 10px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.secondnav_container a{
+    text-decoration: none;
+    color:white;
+}
+
+.secondnav_container a:hover{
+    color: #F3DEBA;
+}
+
+.secondnav_container1 {
+    background-color:black;
+    margin-left: 620px;
+    width: 200px;
+    justify-content: center;
+    height: 225px;
+    border-radius: 2px;
+}
+
+.secondnav_container1 div{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px 15px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.secondnav_container1 a{
+    text-decoration: none;
+    color:white;
+}
+
+.secondnav_container1 a:hover{
+    color: #F3DEBA;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    100% {
+        transform:  scaleY(.8)
+    }
+}

@@ -1,0 +1,322 @@
+.honstar_section{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+
+.zenim img{
+    position: absolute;
+    z-index: -5;
+    max-width: 100%;
+    background-position: center;
+}
+
+.tabButtonshsr {
+    top: 200px;
+    position: absolute;
+    left: 45px;
+    z-index: 2;
+}
+
+.tabButtonshsr button1:hover{
+    opacity: 1;
+}
+
+.tabButtonshsr button1{
+    padding: 25px 30px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/dhicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.tabButtonshsr button2{
+    padding:25px 30px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/mhicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.tabButtonshsr button2:hover{
+    opacity: 1;
+}
+
+.tabButtonshsr button3{
+    padding:25px 30px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/hhicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.tabButtonshsr button3:hover{
+    opacity: 1;
+}
+
+.tabButtonshsr button4{
+    padding:25px 30px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/whicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.tabButtonshsr button4:hover{
+    opacity: 1;
+}
+
+.tabButtonshsr button5{
+    padding:25px 30px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/jhicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.tabButtonshsr button5:hover{
+    opacity: 1;
+}
+
+.tabButtonshsr button6{
+    padding:25px 30px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/qhicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.tabButtonshsr button6:hover{
+    opacity: 1;
+}
+
+.tabButtonshsr button7{
+    padding:25px 30px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/bhicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.tabButtonshsr button7:hover{
+    opacity: 1;
+}
+
+.tabButtonshsr button8{
+    padding:25px 30px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/yhicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+    opacity: .7;
+}
+
+.tabButtonshsr button8:hover{
+    opacity: 1;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.honstr {
+    width: 86%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-top: 70px;
+    margin-left: 220px;
+}
+
+.honstr1 {
+    width: 90%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 1s;
+    margin-top: 0px;
+    margin-left: 100px;
+    z-index: 1;
+}
+
+
+@keyframes planetEntrance {
+    0% { opacity: 0; }
+    100% {opacity: 1;}
+}
+
+.descriptionhsr{
+    width: 555px;
+    overflow-x: hidden;
+    margin-top: 220px;
+    text-align: left;
+    position: absolute;
+    margin-right: 545px;
+}
+
+.descriptionhsr_title{
+    position: relative;
+    font-size: 20px;
+    color: black;
+    margin-top: 110px;
+    margin-bottom: -10px;
+    text-align: inherit;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    animation: titleEntrance 1s;
+    font-family: 'myFon1';
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+
+@keyframes titleEntrance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.descriptionhsr_list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'myFont1';
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+}
+
+.descriptionhsr_list li {
+    padding: 0px 0px;
+    color: black;
+    opacity: 1;
+    font-size: 13px;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    margin-right: 50px;
+}
+
+.descriptionhsr_info {
+    list-style: none;
+    margin: 0;
+    padding: 0 15px;
+    font-family: 'myFont1', sans-serif;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.356));
+}
+
+.descriptionhsr_info a{
+    margin-left: 0px;
+    padding: 0px;
+    text-align: justify;
+    font-size: 14px;
+    color: white;
+}
+
+
+.descriptionhsr_title1{
+    position: relative;
+    font-size: 22px;
+    color: white;
+    margin-top: 105px;
+    margin-bottom: -5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    animation: titleEntrance 1s;
+    font-family: 'myFon1';
+    font-weight: bold;
+    margin-left: 115px;
+}
+
+
+@keyframes titleEntrance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.diag3 {
+    color: transparent;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    right: 0px;
+    height: 470px;
+    z-index: -2;
+    -ms-transform: skewY(20deg);
+    -webkit-transform: skewY(-20deg);
+    transform: skewY(-0deg);
+    background-image: linear-gradient(to right, rgba(355,0,0,0), rgba(255, 255, 255, 0.308));
+}
+
+.btbg3 img{
+    position: absolute;
+    width: 100%;
+    color: transparent;
+    margin-top: 280px;
+    z-index: -1;
+}
+
+.descriptionhsr_info1 {
+    list-style: none;
+    font-family: 'myFont1', sans-serif;
+    margin-top: 130px;
+    padding-top: 10px;
+    padding-left: 65px;
+}
+
+.descriptionhsr_info1 a{
+    text-align: justify;
+    font-size: 11px;
+    color: white;
+}

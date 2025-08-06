@@ -1,0 +1,407 @@
+.verse{
+    position: relative; 
+    text-align: center;
+}
+
+.verse:-webkit-scrollbar{
+    display: none;
+  }
+
+.cont1{
+    margin-top: 835px;
+}
+.cont1 img{
+    max-width: 21%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.5rem;
+    opacity: .5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    border-radius: 15px;
+}
+.cont1 :hover{
+    opacity: 1;
+}
+
+.cont1{
+    margin-left: 0px;
+}
+
+.cont1 a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cont1 a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .5px;
+    bottom: 30px;
+    left: 0;
+    background-color: #FFDD83;
+    transition: transform 0.55s ease-out;
+  }
+  
+  .cont1 a:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+
+
+.hi3{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 18.5%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+
+.gi{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 39.5%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+
+.tot{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+
+.zzz{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 60.8%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+.hsr{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 82%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+
+
+.tl img{
+    width: 550px;
+    margin-top: 130px;
+    position: absolute;
+    z-index: 1;
+    right: 65.2%;
+}   
+
+.cont img{
+    width: 22%;
+    margin-top: -570px;
+    position: absolute;
+    z-index: 2;
+    right: 75%;
+}
+
+.cont2 img{
+    width: 22%;
+    margin-top: 80px;
+    position: absolute;
+    z-index: 2;
+    right: 30%;
+}
+
+.tl1 img{
+    width: 550px;
+    margin-top: -498px;
+    position: absolute;
+    z-index: 2;
+    right: 0.2%;
+}
+
+.tl3 img{
+    width: 550px;
+    margin-top: 980px;
+    position: absolute;
+    z-index: 2;
+    right: .2%;
+}
+
+.rai img{
+    width: 41.8%;
+    margin-top: 130px;
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+}
+
+.cont3 img{
+    width: 22%;
+    margin-top: 910px;
+    position: absolute;
+    z-index: 2;
+    right: 75%;
+}
+
+.chars1 {
+    position: relative; 
+    margin-top: auto;
+    text-align: center;
+    margin-top: 1015px;
+}
+
+.chars1 img{
+    max-width: 18%;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: .5rem;
+    opacity: .7;
+    transition: opacity 0.3s;
+}
+
+.chars1 :hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.chars1 a{
+    cursor: pointer;
+}
+
+.chars1 a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .5px;
+    bottom: 30px;
+    left: 0;
+    background-color: #FFDD83;
+    transition: transform 0.55s ease-out;
+  }
+  
+  .chars1 a:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+
+.dh{
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 22.9%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+
+.ms{
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 41.2%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+
+.hm{
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+
+.wt{
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 76.5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+}
+
+.gpinfo{
+    text-align: center;
+    font-family: 'myFont1', cursive;
+    position: absolute;
+    margin-left: 175px;
+    top: 680px;
+}
+
+.gpinfo a{
+    font-size: 41px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #362FD9, 0 0 8px #3E54AC, 0 0 12px #B9F3FC;
+    color: white;
+    cursor: default;
+}
+
+.gpinfo1{
+    text-align: center;
+    font-family: 'myFont1', cursive;
+    position: absolute;
+    margin-left: 475px;
+    top: 670px;
+}
+
+.gpinfo1 a{
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #362FD9, 0 0 8px #3E54AC, 0 0 12px #B9F3FC;
+    color: white;
+    cursor: default;
+
+}
+
+.gpinfo2{
+    text-align: center;
+    font-family: 'myFont1', cursive;
+    position: absolute;
+    margin-left: 600px;
+    top: 725px;
+}
+
+.gpinfo2 a{
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #362FD9, 0 0 8px #3E54AC, 0 0 12px #B9F3FC;
+    color: white;
+    cursor: default;
+
+}
+
+.gpinfo3{
+    text-align: center;
+    font-family: 'myFont1', cursive;
+    position: absolute;
+    margin-left: 100px;
+    top: 725px;
+}
+
+.gpinfo3 a{
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #362FD9, 0 0 8px #3E54AC, 0 0 12px #B9F3FC;
+    color: white;
+    cursor: default;
+
+}
+
+.diamhm{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 230px;
+    margin-left: 100px;
+    position: absolute;
+    font-size: 40px;
+}
+
+.diamhm1{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 270px;
+    margin-left: 90px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.diamhm2{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 220px;
+    margin-left: 140px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.diamhm3{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 240px;
+    margin-left: 400px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.diamhm4{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 350px;
+    margin-left: 590px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.diamhm5{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 350px;
+    margin-left: 590px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.diamhm6{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 300px;
+    margin-left: 890px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.diamhm7{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 250px;
+    margin-left: 850px;
+    position: absolute;
+    font-size: 35px;
+}
+
+.diamhm8{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 300px;
+    margin-left: 890px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.diamhm9{
+    color: white;
+    filter: drop-shadow(0px 0px 15px rgb(76, 133, 255));
+    margin-top: 350px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 15px;
+}
+

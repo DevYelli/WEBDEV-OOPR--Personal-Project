@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.about{
+    padding-top: 0 ;
+    margin-top: auto;
+}
+
+.about a{
+    padding: .8rem;
+    text-align: center;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    height: auto;   
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.about :hover{
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    position: relative; 
+    margin-top: 41px;
+    z-index: -1;
+}
+.crdts a{
+    display: flex;
+    display: inline-block;
+    position: relative;
+}
+.credits img{
+    max-width: 250px;
+}
+
+.about1 {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about1 a{
+    font-family: 'myFont1', sans-serif;;
+    font-size: 12px;
+    cursor: default;
+    color: white;
+}
+
+.logoft a{
+    display: flex;
+    display: inline-block;
+    position: relative;
+}
+.logoft img{
+    max-width: 150px;
+    padding-top: 30px;
+}
+
+.about2 {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about2 a{
+    font-family: 'myFont1', sans-serif;;
+    font-size: 12px;
+    cursor: default;
+}
+
+.logoft1 a{
+    display: flex;
+    display: inline-block;
+    position: relative;
+}
+.logoft1 img{
+    max-width: 125px;
+    padding-top: 30px;
+}

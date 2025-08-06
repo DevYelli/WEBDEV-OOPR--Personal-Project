@@ -1,0 +1,389 @@
+.genshin_section{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+
+.bggi img{
+    position: absolute;
+    z-index: -5;
+    max-width: 100%;
+    background-position: center;
+}
+
+.tabButtonsgi {
+    top: 800px;
+    position: absolute;
+    right: 362px;
+    z-index: 2;
+}
+
+.tabButtonsgi button1{
+    padding: 50px;
+    margin: 15px;
+    background-image: url(./charbg/dgicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonsgi button2{
+    padding: 50px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/wgicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonsgi button3{
+    padding: 50px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/lgicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonsgi button4{
+    padding: 50px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/ygicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonsgi button5{
+    padding: 50px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/tgicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonsgi button6{
+    padding: 50px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/agicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonsgi button7{
+    padding: 50px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/kgicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.genshin {
+    width: 91%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: 142px;
+    margin-top: 70px;
+}
+
+.genshin2 {
+    width: 75%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: 381px;
+    margin-top: 67px;
+}
+
+.genshin3 {
+    width: 78.2%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: 345.5px;
+    margin-top: 65px;
+}
+
+.genshin4 {
+    width: 93%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: 110px;
+    margin-top: 65px;
+}
+
+.genshin5 {
+    width: 70%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: 475px;
+    margin-top: 0px;
+}
+
+.genshin6 {
+    width: 78.7%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: 337px;
+    margin-top: 0px;
+}
+
+.genshin7 {
+    width: 55.1%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: 700px;
+    margin-top: 33px;
+}
+
+@keyframes planetEntrance {
+    0% { opacity: 0; }
+    100% {opacity: 1;}
+}
+
+.descriptiongi{
+    width: 555px;
+    margin-left: -800px;
+    overflow-x: hidden;
+    margin-top: 250px;
+    text-align: right;
+    position: absolute;
+}
+
+.descriptiongi_title{
+    position: relative;
+    font-size: 45px;
+    color: white;
+    padding-right: 70px;
+    margin-top: 98px;
+    margin-bottom: -10px;
+    text-align: inherit;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: bold;
+    animation: titleEntrance 1s;
+    font-family: 'myFont6', sans-serif;
+}
+
+
+@keyframes titleEntrance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.descriptiongi_list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'myFont1', sans-serif;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.356));
+}
+
+.descriptiongi_list li1 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #92B4EC, #FFFFFF);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.descriptiongi_list li0 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #F90716, #FF5403, #FFCA03, #FFF323);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.descriptiongi_list li3 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #8D9EFF, #9F73AB);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.descriptiongi_list li4 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #520c23, #cc3789,#fffdfe);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.descriptiongi_list li5 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #E1EEDD,#F0A04B, #E1EEDD,#183A1D);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.descriptiongi_list li6 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #FFCE45, #B05E27,#D4AC2B, #FFCE45);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.descriptiongi_list li7 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #000000, #146C94, #19A7CE,#F6F1F1);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.descriptiongi_list li {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 11px;
+    color: white;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes textEntrance {
+    0% {transform: translateX(350px);
+        opacity: 0;}
+    50% {transform: translateX(40px);}
+    100% {transform: translateX(0);
+        opacity: 1;}
+}
+
+.descriptiongi_list:last-child {
+    border-bottom: none;
+}
+
+.diag1 {
+    color: transparent;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    right: 0px;
+    height: 470px;
+    z-index: -2;
+    -ms-transform: skewY(20deg);
+    -webkit-transform: skewY(-20deg);
+    transform: skewY(-0deg);
+    background-image: linear-gradient(to right, rgba(355,0,0,0), rgba(255, 255, 255, 0.377));
+}
+
+.genim img{
+    position: absolute;
+    width: 400px;
+    right: 1050px;
+    top: 120px;
+    z-index: 1;
+}
+
+.btbg1 {
+    position: absolute;
+    top: 740px;
+    left: 0px;
+    right: 0px;
+    height: 190px;
+    z-index: 1;
+    background: linear-gradient( rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.719)); 
+}

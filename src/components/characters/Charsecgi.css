@@ -1,0 +1,35 @@
+.secgi{
+    display: grid;
+    align-content: space-between;
+    margin-top: 170px;
+    position: absolute;
+    right: 1.5%;
+    text-align: left;
+}
+
+.secgi a{
+    z-index: 1;
+    margin-top: 30px;
+    margin-right: 1430px;
+}
+
+.gipg{
+    color: transparent;
+    margin-top: 105px;
+    padding-right: 280px;
+    margin-left: -60px;
+    position: absolute;
+    padding-top: 7px;
+    padding-bottom: 48px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(0, 0, 0, 0.445));
+}
+
+
+.secgi img{
+    width: 100px;
+}
+
+.gryscl1 img{
+    filter: grayscale(100%);
+    opacity: .5;
+}

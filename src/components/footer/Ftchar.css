@@ -1,0 +1,78 @@
+.abts1{
+    padding-top: 0 ;
+    margin-top: auto;
+}
+
+.abts1 a{
+    padding: .8rem;
+    text-align: center;
+    font-family: 'myFont1', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    height: auto;   
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.abts1 :hover{
+    color: white;
+}
+
+.ft1{
+    text-align: center;
+    background-color: black;
+    margin-top: 880px;
+    width: 100%;
+    position: absolute;
+}
+.crdtz1 a{
+    display: flex;
+    display: inline-block;
+    position: relative;
+}
+.creditz1 img{
+    max-width: 250px;
+}
+
+.abts2 {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.abts2 a{
+    font-family: 'myFont1', sans-serif;;
+    font-size: 12px;
+    cursor: default;
+    color: white;
+}
+
+.lgt1 a{
+    display: flex;
+    display: inline-block;
+    position: relative;
+}
+.lgt1 img{
+    max-width: 150px;
+    padding-top: 30px;
+}
+
+.abts3 {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.abts3 a{
+    font-family: 'myFont1', sans-serif;;
+    font-size: 12px;
+    cursor: default;
+}
+
+.lgt2 a{
+    display: flex;
+    display: inline-block;
+    position: relative;
+}
+.lgt2 img{
+    max-width: 125px;
+    padding-top: 30px;
+}

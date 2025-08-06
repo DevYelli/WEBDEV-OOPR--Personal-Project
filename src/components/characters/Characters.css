@@ -1,0 +1,330 @@
+.planets_section{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.bg img{
+    position: absolute;
+    z-index: -5;
+    max-width: 100%;
+    
+}
+
+.tabButtons {
+    top: 800px;
+    position: absolute;
+    right: 245px;
+    z-index: 2;
+}
+
+.tabButtons button1{
+    padding: 45px 65px;
+    margin: 15px;
+    background-image: url(./charbg/kicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+}
+
+.tabButtons button2{
+    padding: 45px 65px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/ricon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+}
+
+.tabButtons button3{
+    padding: 45px 65px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/sicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    
+}
+
+.tabButtons button4{
+    padding: 45px 65px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/ocon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    
+}
+
+.tabButtons button5{
+    padding: 45px 65px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/dicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    
+}
+
+.tabButtons button6{
+    padding: 45px 65px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/ticon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    
+}
+
+.tabButtons button7{
+    padding: 45px 65px;
+    width: 138px;
+    margin: 15px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/iicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    
+}
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.planet {
+    width: 900px;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: -180px;
+    margin-top: 70px;
+    z-index: 1;
+}
+
+@keyframes planetEntrance {
+    0% { opacity: 0; }
+    100% {opacity: 1;}
+}
+
+.description{
+    width: 555px;
+    margin-left: -50px;
+    overflow-x: hidden;
+    margin-top: 250px;
+    text-align: right;
+}
+
+.description_title{
+    position: relative;
+    font-size: 35px;
+    color: white;
+    margin-top: 98px;
+    margin-bottom: -10px;
+    padding-right: 25px;
+    text-align: inherit;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-style: italic;
+    animation: titleEntrance 1s;
+    font-family: 'myFont3', sans-serif;
+}
+
+
+@keyframes titleEntrance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.description_list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'myFont1', sans-serif;
+    margin-top: 30px;
+    
+}
+
+.description_list li1 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #3D1766, #6F1AB6, #FF0032, #CD0404);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.description_list li0 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #F90716, #FF5403, #FFCA03, #FFF323);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.description_list li3 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #775ADA, #CF0000,#000);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.description_list li4 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #FFDDEE, #0E3EDA, #F473B9,#FFBDE6);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.description_list li5 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #5BC0F8,#ECF9FF, #FFFBEB,#FFE7CC);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.description_list li6 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #000000, #19A7CE,#146C94, white);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.description_list li7 {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #FFCC8F, #FFCC8F, #C539B4,#F5D5AE);
+    background-clip: text;
+    color: transparent;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+    font-weight: bold;
+}
+
+.description_list li {
+    margin-left: 120px;
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 11px;
+    color: white;
+    opacity: 1;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes textEntrance {
+    0% {transform: translateX(350px);
+        opacity: 0;}
+    50% {transform: translateX(40px);}
+    100% {transform: translateX(0);
+        opacity: 1;}
+}
+
+.description_list:last-child {
+    border-bottom: none;
+}
+
+.diag {
+    color: transparent;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    right: 0px;
+    height: 470px;
+    z-index: -2;
+    -ms-transform: skewY(20deg);
+    -webkit-transform: skewY(-20deg);
+    transform: skewY(-0deg);
+    background-image: linear-gradient(to right, rgba(355,0,0,0), rgba(5, 0, 0, 0.356));
+}
+
+.hi3logo img{
+    position: absolute;
+    width: 430px;
+    right: 110px;
+    top: 90px;
+    z-index: 1;
+}
+
+.btbg {
+    position: absolute;
+    top: 740px;
+    left: 0px;
+    right: 0px;
+    height: 190px;
+    z-index: 1;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(5, 0, 0, 0.5), rgba(5, 0, 0, 0.719)); 
+}

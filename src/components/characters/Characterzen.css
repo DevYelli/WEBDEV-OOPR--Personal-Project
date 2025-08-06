@@ -1,0 +1,224 @@
+.zenless_section{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+
+.zenim img{
+    position: absolute;
+    z-index: -5;
+    max-width: 100%;
+    background-position: center;
+}
+
+.tabButtonszen {
+    top: 820px;
+    position: absolute;
+    right: 300px;
+    z-index: 2;    
+}
+
+.tabButtonszen button1{
+    padding: 23px 96px;
+    border: none;
+    background-image: url(./charbg/hzicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+}
+
+.tabButtonszen button2{
+    padding: 23px 96px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/szicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonszen button3{
+    padding: 23px 96px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/bzicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonszen button4{
+    padding: 23px 96px;
+    border: none;
+    border-radius: 4px;
+    background-image: url(./charbg/kzicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.tabButtonszen button5{
+    padding: 23px 96px;
+    border: none;
+    background-image: url(./charbg/vzicon.png);
+    transition: all 0.25s;
+    cursor: pointer;
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.zen {
+    width: 80%;
+    border-radius: 10px;
+    /*animation name*/
+    animation: planetEntrance 2s;
+    margin-left: 0px;
+    margin-top: 1px;
+    z-index: 1;
+}
+
+@keyframes planetEntrance {
+    0% { opacity: 0; }
+    100% {opacity: 1;}
+}
+
+.descriptionzen{
+    width: 555px;
+    margin-left: 900px;
+    overflow-x: hidden;
+    margin-top: 250px;
+    text-align: right;
+    position: absolute;
+}
+
+.descriptionzen_title{
+    position: relative;
+    font-size: 20px;
+    color: black;
+    padding-right: 5px;
+    margin-top: 98px;
+    margin-bottom: -10px;
+    text-align: inherit;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    animation: titleEntrance 1s;
+    font-family: 'myFont4',sans-serif;
+}
+
+
+@keyframes titleEntrance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.descriptionzen_list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'myFont1', sans-serif;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.descriptionzen_list li {
+    padding: 0px 20px;
+    text-align: inherit;
+    color: black;
+    opacity: 1;
+    font-size: 80px;
+    animation: textEntrance 1s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes textEntrance {
+    0% {transform: translateX(350px);
+        opacity: 0;}
+    50% {transform: translateX(40px);}
+    100% {transform: translateX(0);
+        opacity: 1;}
+}
+
+.descriptionzen_list:last-child {
+    border-bottom: none;
+}
+
+.diag2 {
+    color: transparent;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    right: 0px;
+    height: 470px;
+    z-index: -1;
+    -ms-transform: skewY(20deg);
+    -webkit-transform: skewY(-20deg);
+    transform: skewY(-0deg);
+    background-image: linear-gradient(to right, rgba(155,0,0,0), rgb(255, 255, 255));
+}
+
+.zenz img{
+    position: absolute;
+    width: 400px;
+    right: 980px;
+    top: 150px;
+    z-index: 1;
+}
+
+.btbg2 {
+    position: absolute;
+    top: 780px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    z-index: 1;
+    background-color: #d8f900;
+}
+
+.btbg2 a{
+    font-size: 89.5px;
+    font-family: 'myFont6';
+    opacity: .2;
+    background-image: linear-gradient(50deg, black, gray, black);
+    background-clip: text;
+    color: transparent;
+}
+
+.zlog1 img{
+    position: absolute;
+    opacity: .1;
+    filter: grayscale(100%);
+    width: 500px;
+    margin-left: 1050px;
+    margin-top: 190px;
+}
+
+.zlog2 img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 359px;
+    transform: skewY(20deg);
+}
